@@ -1,0 +1,16 @@
+* {
+    margin: 18px;
+    padding: 18px;
+    background-color: azure;
+    i{ 
+        color: black;
+    }
+    h1{
+        color: gold;
+        text-align: center;
+            font-size: 50px;
+    }
+label{
+    font-size: 40px
+}
+}

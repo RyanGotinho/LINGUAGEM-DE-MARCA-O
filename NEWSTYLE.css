@@ -1,0 +1,63 @@
+* {
+    /* zera a margem do documento */
+    margin: 0;
+    /* gera um espaçamento interno */
+    padding: 0;
+}
+
+/* seletor de tipo, aplica o css em uma tag */
+h5{
+    /* o atributo important prioriza o elemento em relação ao outro */
+    color: blueviolet !important;
+}
+
+/* sletor de classe */
+.titulo{
+    background-color: orange;
+    color: greenyellow;
+    /* aplica margem em todas as laterais */
+    /* margin: 10px; */
+    /* margin-left: 20px; */
+    /* aplico o espaçamento no superior e inferior */
+    /* e aplico tambem nas laterais esquerda e direita */
+    /* margin: 20px 0; */
+    margin: 0 0 0 10px;
+    /* APLICANDO ESPAÇAMENTO INTERNO */
+    /* padding: 10px; */
+
+    padding: 10px 0;
+
+}
+
+p{
+    background-color: brown;
+    /* APLICANDO TAMANHO E LARGURA */
+    width: 200px;
+    /* APLICANDO TAMABHO EM LARGURA */
+    height: 200px;
+
+}
+.formulario {
+    background-color: dimgrey;
+   width: 400px;
+   margin: o auto;
+   }
+    .input-nome{
+     
+        border: none;
+     
+        border-radius: 10px;
+
+        margin-left: 10px;
+       
+        opacity: 70%;
+    }
+    .botao{
+        background-color: aquamarine;
+        border: none;
+        padding: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: large;
+        text-shadow: 5px 2px 5px rgba(red, green, blue, alpha);
+       
+    }

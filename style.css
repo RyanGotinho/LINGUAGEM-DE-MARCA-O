@@ -1,0 +1,20 @@
+/* SELETOR UNIVERSAL */
+* {
+   /* ZERO A MARGEM DO DOCUMENTO */
+    margin: 0;
+    /* GERA UM ESPAÇAMENTO INTERNO */
+    padding: 0;
+}
+
+/* SELETOR DE TIPO, APLICA O CSS EM UMA TAG */
+h5{
+    color: hotpink !important;
+}
+/* SELETOR DE CLASSES  */
+.titulo{
+    background-color: indigo;
+    color: blueviolet;
+
+    /* APLICA MARGEM EM TODAS AS LATERAIS */
+    margin: 10px;
+}
