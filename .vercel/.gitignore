@@ -1,0 +1,47 @@
+.vercel
+
+<main  class="container">
+    <form>
+        <h1>Login Ryanzin</h1>
+        <div class="input-box">
+            <input placeholder="Usuario" type="email">
+            <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+            <input placeholder="Senha" type="password">
+            <i class="bx bxs-lock-alt"></i>
+        </div>
+
+        <div class="remember-forgot">
+            <label>
+            <input type="checkbox">
+            Lembrar senha
+            </label>
+            <a href="#">Esqueci a senha</a>
+        </div>
+
+            <button type="submit" class="login">Login</button>
+
+            <div class="register-link">
+                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </div>
+    </form>
+</main>
+
+
+
+
+
+
+* {
+    margin: 0;
+
+    padding: 0;
+}
+body {
+text-align: center;
+/* MARGIN, AJUSTA HORIZONTALMENTE */
+margin: 20px;
+/* PADDING: ALTURA NA VERTICAL */
+padding: 100px; 
+}

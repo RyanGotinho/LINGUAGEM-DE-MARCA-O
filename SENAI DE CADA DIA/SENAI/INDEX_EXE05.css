@@ -1,4 +1,30 @@
 * {
+    margin: 18px;
+    padding: 18px;
+    background-color: azure;
+    i{ 
+        color: black;
+    }
+    h1{
+        color: gold;
+        text-align: center;
+            font-size: 50px;
+    }
+label{
+    font-size: 40px
+}
+}
+
+
+
+
+
+
+
+
+
+/* her */
+* {
     /* zera a margem do documento */
     margin: 0;
     /* gera um espaçamento interno */
@@ -61,3 +87,13 @@ p{
         text-shadow: 5px 2px 5px rgba(red, green, blue, alpha);
        
     }
+.checar {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    /* MODIFICANDO O TIPO DE CURSOR */
+    cursor: pointer
+    /* LIMPAR CONFIGURAÇÕES APARENCIA; */
+ appearance
+
+}
