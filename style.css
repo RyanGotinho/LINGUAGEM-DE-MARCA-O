@@ -1,0 +1,42 @@
+:root {
+    --cor-vermelho--ifood: red
+    --cor-cinza-texto: gray
+    --cor-cinza-borda: #e2e2e2
+    --cor-cinza-fundo: #f5f5f5
+}
+
+/* ZERANDO AS PROPRIEDADES DO DOCUMENTO */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* APLIQUEI EM TODO DOCUMENTO FONTE, COR, E COR FUNDO */
+    font-family:poppins, sans-serif;
+    background-color: var(--cor-cinza-fundo);
+    color: var(--cor-cinza-texto);
+
+
+}
+.cabecalho {
+    background-color: white;
+    padding: 15px 0px;
+    border-bottom: 1px solid var(--cor-cinza-borda);
+ 
+}
+
+.logo{
+    height: 5vh;
+
+}
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
